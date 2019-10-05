@@ -1,0 +1,8 @@
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.csprojAssemblyReference.cache
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.csproj.CoreCompileInputs.cache
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\Alkanza.Controllers.dll
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\Alkanza.Controllers.pdb
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\System.Web.Mvc.dll
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.csproj.CopyComplete
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.dll
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alkanza.PruebaTecnica", "Alkanza.PruebaTecnica\Alkanza.PruebaTecnica.csproj", "{5CA7F6A7-E5E3-4C1F-980D-F89314C1E4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alkanza.Controllers", "Alkanza.Controllers\Alkanza.Controllers.csproj", "{641263C3-63D1-4068-8D95-4D2F99AF209E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CA7F6A7-E5E3-4C1F-980D-F89314C1E4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA7F6A7-E5E3-4C1F-980D-F89314C1E4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA7F6A7-E5E3-4C1F-980D-F89314C1E4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA7F6A7-E5E3-4C1F-980D-F89314C1E4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641263C3-63D1-4068-8D95-4D2F99AF209E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641263C3-63D1-4068-8D95-4D2F99AF209E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641263C3-63D1-4068-8D95-4D2F99AF209E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641263C3-63D1-4068-8D95-4D2F99AF209E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BCAC033-FEA1-4F2B-A16E-165805A00631}
+	EndGlobalSection
+EndGlobal
