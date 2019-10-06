@@ -6,7 +6,7 @@
     {
         public Guid Id { get; set; }
         public DateTime FechaGeneracion { get; set; }
-        public string Fecha => FechaGeneracion.ToLongDateString();
+        public string Fecha => FechaGeneracion.ToShortDateString() + " " + FechaGeneracion.ToShortTimeString();
 
         public string LatitudPuntoInicial { get; set; }
         public string LongirudPuntoInicial { get; set; }

@@ -50,7 +50,7 @@
                                                         calculoDesbalance = item.calculoDesbalance.GetValueOrDefault(),
                                                     }).ToList();
 
-                return historico;
+                return historico.OrderBy(z => z.FechaGeneracion);
             }
             catch (Exception ex)
             {

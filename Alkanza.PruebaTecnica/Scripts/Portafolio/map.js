@@ -70,13 +70,11 @@ var mapModule = {
                     });
                 });
 
-                debugger;
                 mapModule.PintarPuntos(markersLocations);
 
                 var indiceDesbalance = mapModule.CalcularDesbalanceDistancia();
                 lblIndiceDesbalance.text("Indice desbalanceo: " + indiceDesbalance);
 
-                debugger;
                 mapModule.SaveHistorico(indiceDesbalance);
             },
             error: function (error, ex) {
@@ -87,6 +85,7 @@ var mapModule = {
     CalcularDesbalanceDistancia: function () {
         let sum2 = 0;
 
+        debugger;
         puntosDistanciasBalanceados.forEach(function (dist1, index) {
             let sum1 = 0;
             puntosDistanciasDesbalanceados.forEach(function (dist2, index) {
@@ -107,10 +106,13 @@ var mapModule = {
                 distancia : 0
             };
             
-            let distancia = mapModule.CalcularDistancia(punto, puntoReferencia);
-            punto.distancia = distancia
+            let distancia = mapModule.CalcularDistanciaKM(puntoReferencia.latitud, puntoReferencia.longitud, punto.lat, punto.lng);
+            punto.distancia = distancia;
 
-            if (distancia <= radio) {
+            //console.log("distancia a " + centroM.Nombre);
+            //console.log(distancia + " km");
+
+            if (parseFloat(distancia) <= (radio)) {
                 puntosDistanciasBalanceados.push(punto);
             }
             else {
@@ -118,17 +120,17 @@ var mapModule = {
             }
         });
     },
-    CalcularDistancia: function (punto1, punto2) {
-        let lat = punto1.lat - punto2.latitud;
-        let lng = punto1.lng - punto2.longitud;
-
-        let total1 = Math.pow(lat,2) * Math.pow((10000/90), 2);
-        let total2 = Math.pow(lng,2) * Math.pow((40000/36), 2);
-
-        let sum = total1 + total2;
-        let raiz = Math.sqrt(sum);
-
-        return raiz;
+    CalcularDistanciaKM : function (lat1, lon1, lat2, lon2) {
+        //formula Haversine
+        debugger;
+        rad = function (x) { return x * Math.PI / 180; }
+        var R = 6378.137; //Radio de la tierra en km
+        var dLat = rad(lat2 - lat1);
+        var dLong = rad(lon2 - lon1);
+        var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLong / 2) * Math.sin(dLong / 2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        var d = R * c;
+        return d.toFixed(3); //Retorna tres decimales
     },
     PintarPuntos: function (markersLocations) {
         var lat_lng = new Array();
