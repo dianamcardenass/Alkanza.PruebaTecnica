@@ -6,3 +6,8 @@ C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\
 C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.csproj.CopyComplete
 C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.dll
 C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\obj\Debug\Alkanza.Controllers.pdb
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\BusinessLogic.dll
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\EntityFramework.dll
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\BusinessLogic.pdb
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\BusinessLogic.dll.config
+C:\Users\Camilo Cárdenas\Desktop\DCS\Alkanza.PruebaTecnica\Alkanza.Controllers\bin\Debug\EntityFramework.xml

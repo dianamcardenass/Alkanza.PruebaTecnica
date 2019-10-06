@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CentrosMedicosModelStoreContainer" CdmEntityContainer="CentrosMedicosEntities">
+    <EntitySetMapping Name="CentroMedico">
+      <EntityTypeMapping TypeName="CentrosMedicosModel.CentroMedico">
+        <MappingFragment StoreEntitySet="CentroMedico">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="latitud" ColumnName="latitud" />
+          <ScalarProperty Name="longitud" ColumnName="longitud" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoricoCalculoDesbalance">
+      <EntityTypeMapping TypeName="CentrosMedicosModel.HistoricoCalculoDesbalance">
+        <MappingFragment StoreEntitySet="HistoricoCalculoDesbalance">
+          <ScalarProperty Name="calculoDesbalance" ColumnName="calculoDesbalance" />
+          <ScalarProperty Name="LongirudPuntoInicial" ColumnName="LongirudPuntoInicial" />
+          <ScalarProperty Name="LatitudPuntoInicial" ColumnName="LatitudPuntoInicial" />
+          <ScalarProperty Name="FechaGeneracion" ColumnName="FechaGeneracion" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,47 @@
+﻿
+<style>
+    table {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 12px;
+        margin: 5px;
+        width: 480px;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    th {
+        font-size: 13px;
+        font-weight: normal;
+        color: white;
+        background: #2a6478;
+        border-top: 4px solid #2a6478;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+    }
+
+    td {
+        padding: 8px;
+        background: #e8edff;
+        border-bottom: 1px solid #fff;
+        color: black;
+        border-top: 1px solid transparent;
+    }
+
+    tr:hover td {
+        background: #d0dafd;
+        color: #339;
+    }
+</style>
+<div>
+    <h2>Historico</h2>
+    <div id="divData" class="form-group row">
+        <div id="dataHistorico"></div>
+    </div>
+</div>
+
+<script>
+    var urlGetHstorico = "@Url.Action("GetHistorico", "Historico")";
+    var dataHistorico = $("#dataHistorico");
+</script>
+
+<script src="@Url.Content("~/Scripts/Historico/historico.js")" type="text/javascript"></script>
